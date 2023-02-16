@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/PDMpqij.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
 <h1>Virtual Private Networks(VPN) Setup and Usage in Azure</h1>
-This tutorial outlines setting up and usage of Proton VPN within Azure Virtual Machines.<br />
+This tutorial outlines setting up and usage of VPN (Proton) within Azure Virtual Machines.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -24,10 +24,11 @@ This tutorial outlines setting up and usage of Proton VPN within Azure Virtual M
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Documenting IP Address of Home Computer Using open source website (whatismyipddress.com) 
+- Connecting Home Computer with Microsoft Azure Using RDC (Then re-browse into whatismyipaddress.com)
+- Signing up and Download of Proton VPN Client on Microsoft Azure
+- Using Proton VPN Server in Azure to browse into (whatismyipaddress.com)
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
