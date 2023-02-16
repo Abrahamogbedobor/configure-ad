@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Virtual Private Networks(VPNs) Setup and Usage in Azure</h1>
+<h1>Virtual Private Networks(VPN) Setup and Usage in Azure</h1>
 This tutorial outlines setting up and usage of Proton VPN within Azure Virtual Machines.<br />
 
 
