@@ -40,10 +40,11 @@ Active Directory Domain helps to centrally manage network resources such as user
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XRiWAuy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/55hbqEQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem 
+Domain Controller names DC-1 (WINDOW SERVER 2022), has been successfully created after passing its validation test as shown above. Also, several resources such as resource group, virtual network, and subnet were automatically created when creating DC-1 VM.
 </p>
 <br />
 
@@ -51,6 +52,6 @@ Lorem
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The figure above shows the steps used in creating the second VM named Client-1 (Window 10).
 </p>
 <br />
