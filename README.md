@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/K19gi11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Active Directory Domain helps to centrally manage network resources such as user accounts or hardware components such as computers and printers. Notably, the server that powers active directory is called 'DOMAIN CONTROLLER'. The above figures are used to illustrate what would be created in regards to this lab. The first figure shows two virtual machines of which one would be named DC-1 (Domain Controller i.e a server in this lab that will host Active Directory). While the other machine will be named Client-1 preferrably with window 10 that would be use as an organisation computer that any employee could use to login.
+Active Directory Domain helps to centrally manage network resources such as user accounts or hardware components such as computers and printers. Notably, the server that powers active directory is called 'DOMAIN CONTROLLER'. The above figures are used to illustrate what would be created in regards to this lab. The first figure shows two virtual machines of which one would be named DC-1 (Domain Controller i.e a server in this lab that will host Active Directory). While the other machine will be named Client-1 preferrably with window 10 that would be use as an organisation computer that any employee could use to login. In figure2, active directory would then be install in DC-1 machine then Client-1 computer will be join to the domain of DC-1 computer as shown above. Finally, bunch of user accounts will be created in DC-1 using powershellscript.
 </p>
 <br />
 
