@@ -31,7 +31,11 @@ STEP1 (Setting up the Environment):
 
 STEP2 (Ensuring Connectivity between Client and Domain Controlleer):
 - Login to Client-1 and ping DC-1 IP address using ping -t
-- Login
+- Login to DC-1 and enable ICMPv4 on local window firewall
+- Revisit Client-1 to see successful pinging to DC-1
+
+STEP3 (Installing Active Directory):
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
