@@ -35,6 +35,7 @@ STEP2 (Ensuring Connectivity between Client and Domain Controlleer):
 - Revisit Client-1 to see successful pinging to DC-1
 
 STEP3 (Installing Active Directory):
+- Longin to DC-1 and install Active Directory Domain Services
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -97,10 +98,28 @@ The second stage of on-premise active directory configuration on azure is ensuri
 <br />
 
 <p>
-<img src="https://i.imgur.com/0lQMGVK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/GmtD62j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The figure above shows the steps used in creating the second VM named Client-1 (Window 10). Notable, same resource group used in creating DC-1 was used in creating Client-1 VM. Also, from the second figure both DC-1 and Client-1 were in same Virtual network and subnet as shown above.
+ttt
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ttt
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ttt
 </p>
 <br />
