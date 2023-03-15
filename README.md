@@ -28,8 +28,10 @@ STEP1 (Setting up the Environment):
 - Creat Domain Controller VM named 'DC-1' (This is the window server 2022). Notably: Resource Group, Vnet & Subnet will be created along this stage
 - Creat Client VM named as Client-1 (Window 10)
 - Set Domain Controller's NIC private IP address from dynamic to static
-- STEP2 (Ensuring Connectivity between Client-1 and DC-1):
-- Login to Client-1 and
+
+STEP2 (Ensuring Connectivity between Client and Domain Controlleer):
+- Login to Client-1 and ping DC-1 IP address using ping -t
+- Login
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -72,9 +74,18 @@ The figures above shows the steps used in setting DC-1 NIC private IP address to
 
 <p>
 <img src="https://i.imgur.com/S4v7OmW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WhZ700X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DC-1 NIC private IP has been changed from dynamic to static thus, client-1 was then logged into and an attempt was made to ping DC-1 IP address from Clinet-1. Unfortunately, the pinging was unsuccessful as shown above. The reason was due to DC-1 icmp that was enabled on its firewall. Hence, the preceeding figures was used to show the process used in disenabing icmp on DC-1 firewall with the aim of allowing connectivity between both VMs.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The NIC priovate IP has been changed from dynamic to static
+The secong stage of on-premise active directory configuration on azure is ensuring client one computer (window 10) can ping domain controller computer. The above figure was used to run a test try of pinging DC-1 IP address in order to establish connectivity between both computers.
 </p>
 <br />
