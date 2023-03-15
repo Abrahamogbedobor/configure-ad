@@ -88,6 +88,15 @@ DC-1 NIC private IP has been changed from dynamic to static thus, client-1 was t
 <img src="https://i.imgur.com/QI66Cja.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The secong stage of on-premise active directory configuration on azure is ensuring client one computer (window 10) can ping domain controller computer. First, DC-1 was connected to Micrsoft-RDC using its public IP meaning, two RDC was running. Then, its firewall was open on search tab where several icmp protocols were enabled after clicking 'inbounding rules' as shown on figure2. As soon as icmp protocols enabled client-1 pinging started coming through as shown above.
+The second stage of on-premise active directory configuration on azure is ensuring client one computer (window 10) can ping domain controller computer. First, DC-1 was connected to Micrsoft-RDC using its public IP meaning, two remote desktop computers was running. Second, DC-1 LOCAL firewall was open on search tab where several icmp protocols were enabled after clicking 'inbounding rules' as shown on figure2. As soon as icmp protocols was enabled client-1 pinging started coming through as shown above.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/0lQMGVK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GmtD62j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The figure above shows the steps used in creating the second VM named Client-1 (Window 10). Notable, same resource group used in creating DC-1 was used in creating Client-1 VM. Also, from the second figure both DC-1 and Client-1 were in same Virtual network and subnet as shown above.
 </p>
 <br />
