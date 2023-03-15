@@ -77,7 +77,7 @@ The figures above shows the steps used in setting DC-1 NIC private IP address to
 <img src="https://i.imgur.com/WhZ700X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC-1 NIC private IP has been changed from dynamic to static thus, client-1 was then logged into and an attempt was made to ping DC-1 IP address from Clinet-1. Unfortunately, the pinging was unsuccessful as shown above. The reason was due to DC-1 icmp that was enabled on its firewall. Hence, the preceeding figures was used to show the process used in disenabing icmp on DC-1 firewall with the aim of allowing connectivity between both VMs.
+DC-1 NIC private IP has been changed from dynamic to static thus, client-1 was then logged into and an attempt was made to ping DC-1 IP address from Clinet-1. Unfortunately, the pinging was unsuccessful as shown above. The reason was due to DC-1 not allowing icmp ping (NOTE: icmp is the protocol used in pinging) hence, the preceeding figures was used to show the process used in allowing icmp pings on DC-1 firewall with the aim of allowing connectivity between both VMs.
 </p>
 <br />
 
