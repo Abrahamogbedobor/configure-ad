@@ -82,10 +82,12 @@ DC-1 NIC private IP has been changed from dynamic to static thus, client-1 was t
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EOniZZG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Yz8k0eo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cgWVi67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QI66Cja.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The secong stage of on-premise active directory configuration on azure is ensuring client one computer (window 10) can ping domain controller computer. The above figure was used to run a test try of pinging DC-1 IP address in order to establish connectivity between both computers.
+The secong stage of on-premise active directory configuration on azure is ensuring client one computer (window 10) can ping domain controller computer. First, DC-1 was connected to Micrsoft-RDC using its public IP meaning, two RDC was running. Then, its firewall was open on search tab where several icmp protocols were enabled after clicking 'inbounding rules' as shown on figure2. As soon as icmp protocols enabled client-1 pinging started coming through as shown above.
 </p>
 <br />
