@@ -129,7 +129,7 @@ Furthermore, users needed to log back to DC-1 using its public IP address and lo
 <img src="https://i.imgur.com/uiHCM6O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successful login, Active Directory was then opened 
+After successful login, the above figure was used to show how active directory is been laiuned as well as how users accounts are created.
 </p>
 <br />
 
