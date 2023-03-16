@@ -121,22 +121,32 @@ Note after the installation of Active Directory Domain Services, the server then
 <img src="https://i.imgur.com/d2TZzN0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Furthermore, users needed to log back to DC-1 using its public IP address and logging details. Unfortunately, the login was unsuccessfuly as shown above because DC-1 is now a doman controller thus, using the innitial login crendetial has been modify. Therefoire, the context of the user trying to login must be specify such as 'bryanogbe.com\bryanlab'
+Furthermore, users needed to log back to DC-1 using its public IP address and login details. Unfortunately, the login was unsuccessfuly as shown above because DC-1 is now a doman controller thus, using the innitial login crendetial has been modify. Therefoire, the context of the user trying to login must be specify such as 'bryanogbe.com\bryanlab'
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/uiHCM6O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SVqP3EL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successful login, the above figure was used to show how active directory is been laiuned as well as how users accounts are created.
+After successful login, the above figures were used to show how active directory was deployed as well as how organsiational unit users accounts were created as shsown above. Notably, organisatinal unit are like folder used in organisaing things in a company.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RjkqWRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Furthermore, 
+From the figures above two organisational unit accounts has been created "_EMPLOYEES & _ADMIN". Note, there are couples of generic account that were automatically created when Active Directory was deployed however, it is a bad habit using those generic account for administrative task in a organisation.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/RjkqWRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mF4hrVE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Bryanlab is the name of the administrative account for this active directory services. In a proper organisational setting assuming i am to work with this platform, i am more likely to create my own administrative accoiunt that is not link with bryanlab as shown above.
 </p>
 <br />
