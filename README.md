@@ -36,6 +36,10 @@ STEP2 (Ensuring Connectivity between Client and Domain Controlleer):
 
 STEP3 (Installing Active Directory):
 - Longin to DC-1 Server Management Dashboard, and install Active Directory Domain Services
+- Promote Active Directory as a DC (Domain Controller after installation). Then add a new forest such as bryanogbe.com with password
+- Automatic restart thereafter, log back to DC-1 using bryanogbe.com\bryanlab with bryanlab original password
+
+STEP4
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -154,17 +158,18 @@ Bryanlab is the name of the administrative account for this active directory dom
 
 <p>
 <img src="https://i.imgur.com/teaWkv6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qvMm2TQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note: Abraham Ogbe is the new administrative account created inside the _ADMINS folder however, abraham_admin has not gotten any adminstrative function yet although is inside the _ADMIN folder it is ambigous with no meaning yet. The second figure further help to illustrate how an administrative fucntion was added to abraham ogbe by adding and assigning it to domain admin group.
+Note: Abraham Ogbe is the new administrative account created inside the _ADMINS folder however, abraham_admin has not gotten any adminstrative function yet although is inside the _ADMIN folder it is ambigous with no meaning yet. The second figure further help to illustrate how an administrative fucntion was added to abraham ogbe by adding and assigning it to a domain (bryanogbe.com). Anyone who is a member of the domain admin group can make changes accounts.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wR2eZ1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-kkkk
+After entering 'DOMAIN' on the box, the following domain accounts group as shown above then pop-up of which domain admins was then selected.
 </p>
 <br />
 
