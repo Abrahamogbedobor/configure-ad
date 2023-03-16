@@ -113,7 +113,23 @@ In order to install Active Directory on DC-1 computer. first, the link that says
 <img src="https://i.imgur.com/Gb1084h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note after the installation of Active Directory Domain Services, the server then needed to be promoted into a Domain Controller using the little yellow flag at the far right end of the dashboard as shown above. That is the point where a domain name was then setup such as (bryanogbe.com) with a publishing password (password1). To complete this installation, add forest was selected then any domain name with password was chisen as shown above.
+Note after the installation of Active Directory Domain Services, the server then needed to be promoted into a Domain Controller using the little yellow flag at the far right end of the dashboard as shown above. That is the point where a domain name was then setup such as (bryanogbe.com) with a publishing password (Password1). To complete this installation, 'add forest' was selected then any domain name with password was chosen as shown above. Finally, installation was completed with automatic log off and VM restart.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/d2TZzN0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Furthermore, users needed to log back to DC-1 using its public IP address and logging details. Unfortunately, the login was unsuccessfuly as shown above because DC-1 is now a doman controller thus, using the innitial login crendetial has been modify. Therefoire, the context of the user trying to login must be specify such as 'bryanogbe.com\bryanlab'
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/uiHCM6O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After successful login, Active Directory was then opened 
 </p>
 <br />
 
@@ -121,6 +137,6 @@ Note after the installation of Active Directory Domain Services, the server then
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ttt
+Furthermore, 
 </p>
 <br />
