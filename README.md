@@ -108,15 +108,16 @@ In order to install Active Directory on DC-1 computer. first, the link that says
 
 <p>
 <img src="https://i.imgur.com/RJHw6cK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/61kdAcb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1bpE5mP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gb1084h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note after the installation of Active Directory Domain Services, the server then needed to be promoted into a Domain Controller using the little yellow flag at the far right end of the dashboard as shown above.
+Note after the installation of Active Directory Domain Services, the server then needed to be promoted into a Domain Controller using the little yellow flag at the far right end of the dashboard as shown above. That is the point where a domain name was then setup such as (bryanogbe.com) with a publishing password (password1). To complete this installation, add forest was selected then any domain name with password was chisen as shown above.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
