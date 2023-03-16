@@ -138,15 +138,48 @@ After successful login, the above figures were used to show how active directory
 <img src="https://i.imgur.com/RjkqWRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the figures above two organisational unit accounts has been created "_EMPLOYEES & _ADMIN". Note, there are couples of generic account that were automatically created when Active Directory was deployed however, it is a bad habit using those generic account for administrative task in a organisation.
+From the figures above two organisational unit accounts folder has been created "_EMPLOYEES & _ADMIN". Note, there are couples of generic account that were automatically created when Active Directory was deployed however, it is a bad habit using those generic account for administrative task in a organisation.
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/RjkqWRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/mF4hrVE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1h1HBhJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Bryanlab is the name of the administrative account for this active directory services. In a proper organisational setting assuming i am to work with this platform, i am more likely to create my own administrative accoiunt that is not link with bryanlab as shown above.
+Bryanlab is the name of the administrative account for this active directory domain services. In a proper organisational setting assuming i am to work with this platform, i am more likely to create my own administrative account that is not link with bryanlab as shown above. In order to creeate own administrative users account first, the admin folder that was earlier created was used as shown above.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/teaWkv6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Note: Abraham Ogbe is the new administrative account created inside the _ADMINS folder however, abraham_admin has not gotten any adminstrative function yet although is inside the _ADMIN folder it is ambigous with no meaning yet. The second figure further help to illustrate how an administrative fucntion was added to abraham ogbe by adding and assigning it to domain admin group.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+kkkk
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+kkkk
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+kkkk
 </p>
 <br />
