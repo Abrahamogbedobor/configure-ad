@@ -35,7 +35,7 @@ STEP2 (Ensuring Connectivity between Client and Domain Controlleer):
 - Revisit Client-1 to see successful pinging to DC-1
 
 STEP3 (Installing Active Directory):
-- Longin to DC-1 and install Active Directory Domain Services
+- Longin to DC-1 Server Management Dashboard, and install Active Directory Domain Services
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -98,11 +98,11 @@ The second stage of on-premise active directory configuration on azure is ensuri
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lbAt99a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gMwoHoO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ttt
+In order to install Active Directory on DC-1 computer. first, the link that says add roles and features on server management dashboard was entered. Second, DC-1 computer was selected
 </p>
 <br />
 
