@@ -102,16 +102,16 @@ The second stage of on-premise active directory configuration on azure is ensuri
 <img src="https://i.imgur.com/gMwoHoO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In order to install Active Directory on DC-1 computer. first, the link that says add roles and features on server management dashboard was entered. Second, DC-1 computer was selected
+In order to install Active Directory on DC-1 computer. first, the link that says add roles and features on server management dashboard was entered. Second, DC-1 computer was selected before continuing with the installation. Note, after the installation of Active Directory, 
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RJHw6cK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ttt
+Note after the installation of Active Directory Domain Services, the server then needed to be promoted into a Domain Controller using the little yellow flag at the far right end of the dashboard as shown above.
 </p>
 <br />
 
