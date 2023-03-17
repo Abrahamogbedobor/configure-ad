@@ -203,7 +203,7 @@ Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could b
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6ioe4Dn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The
