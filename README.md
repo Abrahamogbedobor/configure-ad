@@ -47,8 +47,7 @@ STEP4 (Create an Admin and Normal User Account in AD)
 - Log back to DC-1 connection with bryanogbe.com\abraham_admin with password as password88
 - From now on used abraham_admin as the new user admin account
 
-- STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
-
+STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 - From Azure portal set Client-1's DNS setting to DC-1 IP address (First, you could try using Client-1 to join the Domain bryanogbe.com and document the error) The aim is for you to know the reason why you MUST first set Client-1 DNS to DC-1 IP address. 
 - Restart Client-1 from Azure portal
 - Log back to Client-1 using the original local admin bryanlab and then re-trY JOINING Client-1 to DOMAIN (bryanogbe.com)
@@ -219,6 +218,6 @@ Changing Client-1 DNS server to DC-1 IP address in order for Client-1 to be able
 <img src="https://i.imgur.com/PHMbWhi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Client-1 DNS has now been change to DC-1 IP address with automatic restart at completion, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN (bryanogbe.com) was done the second time which came out successful as shown above. From the figure above, there was no error message this time instead the login details of an administrative account was requested. Meaning, the admin user account that was created previously (abraham_admin) was used to finally complete the JOINING  process.
+Client-1 DNS has now been change to DC-1 IP address with automatic restart at completion, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN (bryanogbe.com) was done the second time which came out successful as shown above. From the figure above, there was no error message this time instead the login details of an administrative account was requested. Meaning, the admin user account that was created previously (abraham_admin) was used to finally complete the JOINING  process. Because, Client-1 has now join the Doman Server hence, abraham_admin will then be able to login to Client-1 computer any time even though he has never use the computer before.
 </p>
 <br />
