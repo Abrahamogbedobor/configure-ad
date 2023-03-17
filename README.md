@@ -215,9 +215,10 @@ Changing Client-1 DNS server to DC-1 IP address in order for Client-1 to be able
 
 <p>
 <img src="https://i.imgur.com/NWEzSuZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xKphXY1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PHMbWhi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Client-1 DNS has now been change to DC-1 IP address, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN was done the second time which came out successful as shown above.
+Client-1 DNS has now been change to DC-1 IP address with automatic restart at completion, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN (bryanogbe.com) was done the second time which came out successful as shown above. From the figure above, there was no error message this time instead the login details of an administrative account was requested. Meaning, the admin user account that was created previously (abraham_admin) was used to finally complete the JOINING  process.
 </p>
 <br />
