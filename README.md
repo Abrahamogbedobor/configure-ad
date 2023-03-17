@@ -50,7 +50,9 @@ STEP4 (Create an Admin and Normal User Account in AD)
 - STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 
 - From Azure portal set Client-1's DNS setting to DC-1 IP address (First, you could try using Client-1 to join the Domain bryanogbe.com and document the error) The aim is for you to know the reason why you MUST first set Client-1 DNS to DC-1 IP address. 
-- Restart Client-1 
+- Restart Client-1 from Azure portal
+- Log back to Client-1 using the original local admin bryanlab and then re-trY JOINING Client-1 to DOMAIN (bryanogbe.com)
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -68,7 +70,7 @@ Active Directory Domain helps to centrally manage network resources such as user
 <img src="https://i.imgur.com/55hbqEQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Domain Controller named DC-1 (WINDOW SERVER 2022), has been successfully created after passing its validation test as shown above. Also, several resources such as resource group, virtual network, and subnet were automatically created when creating DC-1 VM.
+Domain Controller named DC-1 (WINDOW SERVER 2022), has been successfully created after passing its validation test as shown above. Also, several resources such as resource group, virtual network, and subnet were automatically created when creating DC-1 VM. Note, prior to now, Client-1 was using VNET DNS server but that we do not want as we want it to use DC-1 IP address then we can be able to achieve our aim.
 </p>
 <br />
 
@@ -204,6 +206,7 @@ Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could b
 
 <p>
 <img src="https://i.imgur.com/6ioe4Dn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qWdfzSl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Changing Client-1 DNS server to DC-1 IP address in order for Client-1 to be able to JOIN AD DOMAIN (bryanogbe.com). First, networking was clicked on Client-1 VM in Aure portal then client-1362 also, DNS servers was selected thereafter, a dialog box appeared that has Client-1 DNS as 'INHERIT' which was finally change to 'CUSTOM' with 10.0.0.4 which was DC-1 IP.
@@ -211,9 +214,10 @@ Changing Client-1 DNS server to DC-1 IP address in order for Client-1 to be able
 <br />
 
 <p>
+<img src="https://i.imgur.com/NWEzSuZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The command promt is used 
+Client-1 DNS has now been change to DC-1 IP address, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN was done the second time which came out successful as shown above.
 </p>
 <br />
