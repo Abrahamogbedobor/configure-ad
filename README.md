@@ -45,10 +45,12 @@ STEP4 (Create an Admin and Normal User Account in AD)
 - Add abraham_admin to 'Domain Admins' security group
 - Logout/Close DC-1 connection (Remember the user of this connection was bryanlab with password as Brianajiri2022)
 - Log back to DC-1 connection with bryanogbe.com\abraham_admin with password as password88
-- From now on used abraham_admin as the new admin account
+- From now on used abraham_admin as the new user admin account
 
-- STEP5
-- 
+- STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
+
+- From Azure portal set Client-1's DNS setting to DC-1 IP address (First, you could try using Client-1 to join the Domain bryanogbe.com and document the error) The aim is for you to know the reason why you MUST first set Client-1 DNS to DC-1 IP address. 
+- Restart Client-1 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -177,22 +179,24 @@ Note: Abraham Ogbe is the new administrative account created inside the _ADMINS 
 <img src="https://i.imgur.com/wR2eZ1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After entering 'DOMAIN' on the box, the following domain accounts group then pop-up as shown above of which 'domain admins' was then selected and applied to finally create a new adminstrative account as abrahaam_admin. Lastly, bryanlab the generic admin was then signed off from DC-1 connection and abraham_admin was then used to sign back making abraham ogbe the new admin user of AD.
+After entering 'DOMAIN' on the box, the following domain accounts group then pop-up as shown above of which 'domain admins' was then selected and applied to finally create a new adminstrative account as abrahaam_admin. Lastly, bryanlab the generic admin was then signed off from DC-1 connection and abraham_admin was later used to sign back making abraham ogbe the new admin user of AD.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xybfaUj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-kkkk
+The command promt is used to show the new login details and admin user account abraham_admin.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CTmwavQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n6qp1xX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IbSFcCE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-kkkk
+Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could be possible, the DNS of Client-1 must be change to the IP address of DC-1. If we failed to change Client-1 DNS setting to DC-1 IP we will have error if ever intend joinng Client-1 to the DOMAIN (bryanogbe.com). The second figure above was used to illustrate why it is important to change client-1 DNS settings. First on Client-1 computer we went through settings and about to rename the PC in advance option. Then, the dialog box in figure two poped-up.
 </p>
 <br />
