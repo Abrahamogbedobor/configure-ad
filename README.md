@@ -206,7 +206,7 @@ Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could b
 <img src="https://i.imgur.com/6ioe4Dn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The
+Changing Client-1 DNS server to DC-1 IP address as shown above. First, networking was clicked on Client-1 Aure portal then client-1362 then DNS servers was selected. Thereafter, a dialog box appeared that has Client-1 DNS as 'INHERIT' which was finally change to 'CUSTOM' where 10.0.0.4 (DC-1 IP) was then added and saved.
 </p>
 <br />
 
