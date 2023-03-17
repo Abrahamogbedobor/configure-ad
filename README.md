@@ -177,7 +177,7 @@ Note: Abraham Ogbe is the new administrative account created inside the _ADMINS 
 <img src="https://i.imgur.com/wR2eZ1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After entering 'DOMAIN' on the box, the following domain accounts group then pop-up as shown above of which 'domain admins' was then selected.
+After entering 'DOMAIN' on the box, the following domain accounts group then pop-up as shown above of which 'domain admins' was then selected and applied to finally create a new adminstrative account as abrahaam_admin. Lastly, bryanlab the generic admin was then signed off from DC-1 connection and abraham_admin was then used to sign back making abraham ogbe the new admin user of AD.
 </p>
 <br />
 
