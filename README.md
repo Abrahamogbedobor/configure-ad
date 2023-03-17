@@ -39,7 +39,15 @@ STEP3 (Installing Active Directory):
 - Promote Active Directory as a DC (Domain Controller after installation). Then add a new forest such as bryanogbe.com with password
 - Automatic restart thereafter, log back to DC-1 using bryanogbe.com\bryanlab with bryanlab original password
 
-STEP4
+STEP4 (Create an Admin and Normal User Account in AD)
+- In Active Directory Users and Computers ADUC, create two Organisational Unit (OU) and name it _EMPLOYEES & _ADMINS
+- Create a new employee account inside _ADMINS folder with username abraham_admin and password 
+- Add abraham_admin to 'Domain Admins' security group
+- Logout/Close DC-1 connection (Remember the user of this connection was bryanlab with password as Brianajiri2022)
+- Log back to DC-1 connection with bryanogbe.com\abraham_admin with password as password88
+- From now on used abraham_admin as the new admin account
+
+- STEP5
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -142,7 +150,7 @@ After successful login, the above figures were used to show how active directory
 <img src="https://i.imgur.com/RjkqWRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the figures above two organisational unit accounts folder has been created "_EMPLOYEES & _ADMIN". Note, there are couples of generic account that were automatically created when Active Directory was deployed however, it is a bad habit using those generic account for administrative task in a organisation.
+From the figures above two organisational unit accounts folder "_EMPLOYEES & _ADMIN" has been created on AD. Note, there are couples of generic account that were automatically created when Active Directory was deployed however, it is a bad habit using those generic account for administrative task in a organisation.
 </p>
 <br />
 
@@ -152,7 +160,7 @@ From the figures above two organisational unit accounts folder has been created 
 <img src="https://i.imgur.com/1h1HBhJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Bryanlab is the name of the administrative account for this active directory domain services. In a proper organisational setting assuming i am to work with this platform, i am more likely to create my own administrative account that is not link with bryanlab as shown above. In order to creeate own administrative users account first, the admin folder that was earlier created was used as shown above.
+Bryanlab is the name of the administrative account for this active directory domain services. In a proper organisational setting assuming one is to work with this platform, an employee is more likely to create his own administrative account that is not link with bryanlab as shown above. In order to creeate own administrative users account first, the admin folder (organisational units) that was earlier created would be use .
 </p>
 <br />
 
@@ -161,7 +169,7 @@ Bryanlab is the name of the administrative account for this active directory dom
 <img src="https://i.imgur.com/qvMm2TQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note: Abraham Ogbe is the new administrative account created inside the _ADMINS folder however, abraham_admin has not gotten any adminstrative function yet although is inside the _ADMIN folder it is ambigous with no meaning yet. The second figure further help to illustrate how an administrative fucntion was added to abraham ogbe by adding and assigning it to a domain (bryanogbe.com). Anyone who is a member of the domain admin group can make changes accounts.
+Note: Abraham Ogbe is the new administrative account created inside the _ADMINS folder however, abraham_admin has not gotten any adminstrative function yet although is inside the _ADMIN folder it is ambigous with no meaning yet. The second figure further help to illustrate how an administrative fucntion was added to abraham ogbe after adding it to a domain (bryanogbe.com). Anyone who is a member of the domain admin group can make changes to accounts.
 </p>
 <br />
 
@@ -169,7 +177,7 @@ Note: Abraham Ogbe is the new administrative account created inside the _ADMINS 
 <img src="https://i.imgur.com/wR2eZ1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After entering 'DOMAIN' on the box, the following domain accounts group as shown above then pop-up of which domain admins was then selected.
+After entering 'DOMAIN' on the box, the following domain accounts group then pop-up as shown above of which 'domain admins' was then selected.
 </p>
 <br />
 
