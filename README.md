@@ -54,10 +54,10 @@ STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 - Clien_1 has been successfully joined to the domain, there will be system restart
 
 STEP6 (Setup Remote Desktop for non-administrative users on Client_1
-- Login to Clien_t as bryanogb.com\abraham_admin and open 'System Properties'
+- Login to Client_1 as bryanogbe.com\abraham_admin and open 'System Properties'
 - Open Remote Desktop
 - Allow 'Domain Users' access to remote desktop
-- 
+- Logout of Client_1 and log back in with the new users was cea
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -235,7 +235,17 @@ Client-1 DNS has now been change to DC-1 IP address with automatic restart at co
 <img src="https://i.imgur.com/lGoJH8S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user account that was created i.e bryanogbe.com\abraham_admin was then use to login to Clien_1 as shown above.
+Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user account that was created i.e bryanogbe.com\abraham_admin was then use to login to Clien_1 as shown above. In addition, using system property/About on Client_1 remote computer, some amendment was made to remote desktop whereby users that could remotelty used Client_1 computer was added as shown above.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9RPtOqD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Note: prior to now only domain admin and users with some sort of admiistrative prviliedgs are allowed to login to Client_1 as shwon above. However, afetr the above changes, other users can now be able to log into Client_1 computer. In a tyoical organisation certain that comproises of thousands of employees, it is near impossinle to add individual users hence, the fugure above shows how bunch of users could be added using a SCRIPT
 </p>
 <br />
 
@@ -243,6 +253,6 @@ Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user a
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note: prior to now only domain admin and users with some sort of admiistrative prviliedgs are allowed to login to Client_1. Henceforthe, other users can now be able rto log into Client_1 as shown above.
+Note:
 </p>
 <br />
