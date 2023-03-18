@@ -51,7 +51,10 @@ STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 - From Azure portal set Client-1's DNS setting to DC-1 IP address (First, you could try using Client-1 to join the Domain bryanogbe.com and document the error) The aim is for you to know the reason why you MUST first set Client-1 DNS to DC-1 IP address. 
 - Restart Client-1 from Azure portal
 - Log back to Client-1 using the original local admin bryanlab and then re-try JOINING Client-1 to DOMAIN (bryanogbe.com)
-- Clien_1 has been successfully joined to the domain, there will be system restart then log-out of 
+- Clien_1 has been successfully joined to the domain, there will be system restart
+
+STEP6 (Setup Remote Desktop for non-administrative users on Client_1
+- you can 
 
 <h2>Deployment and Configuration Steps</h2>
 
