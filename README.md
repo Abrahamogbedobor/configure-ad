@@ -54,7 +54,9 @@ STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 - Clien_1 has been successfully joined to the domain, there will be system restart
 
 STEP6 (Setup Remote Desktop for non-administrative users on Client_1
-- you can 
+- Login to Clien_t as bryanogb.com\abraham_admin and open 'System Properties'
+- Open Remote Desktop
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -230,7 +232,7 @@ Client-1 DNS has now been change to DC-1 IP address with automatic restart at co
 <img src="https://i.imgur.com/7btKksa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user account that was created i.e bryanogbe.com\abraham_admin was then be use to login to Clien_1 as shown above.
+Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user account that was created i.e bryanogbe.com\abraham_admin was then use to login to Clien_1 as shown above.
 </p>
 <br />
 
