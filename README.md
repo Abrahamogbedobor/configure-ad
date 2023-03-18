@@ -56,6 +56,8 @@ STEP5 (Join Client-1 to the domain created "Bryanogbe.com"):
 STEP6 (Setup Remote Desktop for non-administrative users on Client_1
 - Login to Clien_t as bryanogb.com\abraham_admin and open 'System Properties'
 - Open Remote Desktop
+- Allow 'Domain Users' access to remote desktop
+- 
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -230,6 +232,7 @@ Client-1 DNS has now been change to DC-1 IP address with automatic restart at co
 <p>
 <img src="https://i.imgur.com/aZ4W3e8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/7btKksa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lGoJH8S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user account that was created i.e bryanogbe.com\abraham_admin was then use to login to Clien_1 as shown above.
@@ -240,6 +243,6 @@ Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user a
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The command pr
+Note: prior to now only domain admin and users with some sort of admiistrative prviliedgs are allowed to login to Client_1. Henceforthe, other users can now be able rto log into Client_1 as shown above.
 </p>
 <br />
