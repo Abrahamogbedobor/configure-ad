@@ -199,7 +199,7 @@ The command promt is used to show the new login details and admin user account a
 <img src="https://i.imgur.com/GXnZYY6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could be possible, the DNS of Client-1 must be change to the IP address of DC-1. If we failed to change Client-1 DNS setting to DC-1 IP we will have error if ever intend joinng Client-1 to the DOMAIN (bryanogbe.com). The second figure above was used to illustrate why it is important to change client-1 DNS settings. First on Client-1 computer we went through settings and about to rename the PC in advance option. Then, the dialog box in figure two poped-up. After we clicked on change the domain as shown above, we then add Client-1 to a bryanogbe.com DOMAIN. We then recorded the error message we received as shown above. The reason for that error message was because we still using a public DNS on client-1. Therefore, we must first change that to the IP of DC-1.
+Client-1 is to be joined to DC-1 Domain (bryanogbe.com) but, before that could be possible, the DNS of Client-1 must be change to the IP address of DC-1. If we failed to change Client-1 DNS setting to DC-1 IP we will have error if we then intend joinng Client-1 to the DOMAIN (bryanogbe.com). The second figure above was used to illustrate why it is important to change client-1 DNS settings. First on Client-1 computer we went through settings and about to rename the PC in advance option. Then, the dialog box in figure two poped-up. After we clicked on change the domain as shown above, we then add Client-1 to a bryanogbe.com DOMAIN. We then recorded the error message we received as shown above. The reason for that error message was because we still using a public DNS on client-1. Therefore, we must first change that to the IP of DC-1.
 </p>
 <br />
 
@@ -219,5 +219,21 @@ Changing Client-1 DNS server to DC-1 IP address in order for Client-1 to be able
 </p>
 <p>
 Client-1 DNS has now been change to DC-1 IP address with automatic restart at completion, the above figures was used to test the changes made. Hence, an attemp to JOIN AD DOMAIN (bryanogbe.com) was done the second time which came out successful as shown above. From the figure above, there was no error message this time instead the login details of an administrative account was requested. Meaning, the admin user account that was created previously (abraham_admin) was used to finally complete the JOINING  process. Because, Client-1 has now join the Doman Server hence, abraham_admin will then be able to login to Client-1 computer any time even though he has never use the computer before.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The command
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The command pr
 </p>
 <br />
