@@ -241,18 +241,18 @@ Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user a
 
 <p>
 <img src="https://i.imgur.com/9RPtOqD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ugjDYy9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note: prior to now only domain admin and users with some sort of admiistrative prviliedgs are allowed to login to Client_1 as shwon above. However, afetr the above changes, other users can now be able to log into Client_1 computer. In a tyoical organisation certain that comproises of thousands of employees, it is near impossinle to add individual users hence, the fugure above shows how bunch of users could be added using a SCRIPT
+Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login to Client_1 as shown above. Also, the second figure shows how several users are added to a domain user group with the aim of them been able to login to Client_1 computer. By entering the 'Domain Users Group' which is a special security group in Active Directory Domain, this will enable bunch of users to gain access to login to Client_1 insstead of adding users one by one. First a special group called 'Domain Users' was entered then a checked-up was carried out to check the security of the group. This was then populated and underlined, as this then explained who is allowed to login to Client_1 computer BRYANOGBE\Domain Users meaning, all users that will be in that domain. To confirm this user group, the third figure above is from DC_1 comouter which clearly shows the domain user group that was added in Clien_t remote desktop.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rEazylU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note:
+Login back to DC_1 computer using the public IP in Azure to remotely connect. Then at server management, ADUC was chosen as shown above then users and domain uses group was selected to view all users in the group as shown aove.
 </p>
 <br />
