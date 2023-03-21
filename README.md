@@ -57,7 +57,12 @@ STEP6 (Setup Remote Desktop for non-administrative users on Client_1
 - Login to Client_1 as bryanogbe.com\abraham_admin and open 'System Properties'
 - Open Remote Desktop
 - Allow 'Domain Users' access to remote desktop
-- Logout of Client_1 and log back in with the new users was cea
+- Logout of Client_1 and log back in with the new users
+- Now, every non-administrative users in the domain user group can log into Client_1
+- NOTE: The remote computer login that added domian users group is normally done in organisation as group policy
+- Group policy invilves allowing different users to log into thousands of computers
+
+STEP7 (
 - 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -252,6 +257,6 @@ Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login t
 <img src="https://i.imgur.com/rEazylU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC_1 computer was connected to using the public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove.
+DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove.
 </p>
 <br />
