@@ -264,15 +264,16 @@ Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login t
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove. Furthermore, thousands of users were created onDC_1 using window scripting language (PowerShell ISE), and an attempt was made using them to log into Client_1 as shown.
+DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove. Furthermore, thousands of users were created onDC_1 using window scripting language (PowerShell ISE), and an attempt was made using them to log into Client_1.
 </p>
 <br />
 
 <p>
+<img src="https://i.imgur.com/JP2ikti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The script that was run contains some code which outline the number of accounts to be created (10000) as well as the password associated with them (Password1). However, users will have the opportunity to change their password when they first log-in but it all depends on the admin running the script. In addition, the script also contain the folder (OU) which the newly created user accounts was stored.
+The file that was run on PowerShell ise script as shown above contains some code which outline the number of accounts to be created (10000) as well as the password associated with them (Password1). However, users will have the opportunity to change their password when they first log-in but it all depends on the admin running the script. In addition, the script also contain the folder (OU) which the newly created user accounts was stored. Previously, two organisation unit were created _ADMINS and _EMPLOYEES hence, this new users created were all stored inside _EMPLOYEES folder (OU).
 </p>
 <br />
 
