@@ -272,7 +272,7 @@ DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at ser
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC_1 
+The script that was run contains some code which outline the number of accounts to be created (10000) as well as the password associated with them (Password1). However, users will have the opportunity to change their password when they first log-in but it all depends on the admin running the script. In addition, the script also contain the folder (OU) which the newly created user accounts was stored.
 </p>
 <br />
 
