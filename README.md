@@ -280,6 +280,6 @@ The file that was run on PowerShell ise script as shown above contains some code
 <img src="https://i.imgur.com/DcyAkOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As soon as the script is run, bunch of users account were created as shown above and automatically those accounts were dumped inside the _EMPLOYEES folder (OU)
+As soon as the script is run, bunch of users account were created as shown above and automatically those accounts were dumped inside the _EMPLOYEES folder (OU). Finally, Client_1 was log-out from previous user and one of the newly created users was used to log-back to IT as shown. 
 </p>
 <br />
