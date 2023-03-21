@@ -280,6 +280,15 @@ The file that was run on PowerShell ise script as shown above contains some code
 <img src="https://i.imgur.com/DcyAkOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As soon as the script is run, bunch of users account were created as shown above and automatically those accounts were dumped inside the _EMPLOYEES folder (OU). Finally, Client_1 was log-out from previous user and one of the newly created users was used to log-back to IT as shown. 
+As soon as the script is run, bunch of users account were created as shown above and automatically those accounts were dumped inside the _EMPLOYEES folder (OU). Finally, Client_1 was log-out from previous user and one of the newly created users was used to log-back to Client_1. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sY2TSyT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ID4JDy0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+One of the newly created user account bac.wusi as shown above was used to login to Client_1 computer. Notably, bac.wusi has never logged into Client_1 computer before however, he was able to do that without habing any issue. The reason was simply because, Client_1 was joined into Domain Controller also, bac.wusi was also joined into the domain. Therefore, when a request was sent to the domain there will be look-up to check if such user is in the domain.
 </p>
 <br />
