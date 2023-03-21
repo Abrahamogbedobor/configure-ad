@@ -62,8 +62,9 @@ STEP6 (Setup Remote Desktop for non-administrative users on Client_1
 - NOTE: The remote computer login that added domian users group is normally done in organisation as group policy
 - Group policy invilves allowing different users to log into thousands of computers
 
-STEP7 (
-- 
+STEP7 (Create a bunch of additional users and attempt to use them to log into Client_1)
+- First, login to DC_1 as abraham_admin
+- Open PowerShell_ise as an administrator
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -257,6 +258,22 @@ Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login t
 <img src="https://i.imgur.com/rEazylU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove.
+DC_1 remote computer was connected to using DC_1 public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove. Furthermore, thousands of users were created onDC_1 using window scripting language (PowerShell ISE), and AN attempt was made using them to log into Client_1 as shown.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DC_1 
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DC_1 
 </p>
 <br />
