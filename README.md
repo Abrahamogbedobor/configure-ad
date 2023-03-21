@@ -252,6 +252,6 @@ Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login t
 <img src="https://i.imgur.com/rEazylU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login back to DC_1 computer using the public IP in Azure to remotely connect. Then at server management, ADUC was chosen as shown above then users and domain uses group was selected to view all users in the group as shown aove.
+DC_1 computer was connected to using the public IP in Azure. Then at server management, ADUC (Active Directory Users and Computer) was chosen then users, and domain users group was selected to view all users in the group as shown aove.
 </p>
 <br />
