@@ -242,10 +242,9 @@ Now, bryanlab has been logged out from Client_1 VM thus, the domain admin user a
 <p>
 <img src="https://i.imgur.com/9RPtOqD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/ugjDYy9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login to Client_1 as shown above. Also, the second figure shows how several users are added to a domain user group with the aim of them been able to login to Client_1 computer. By entering the 'Domain Users Group' which is a special security group in Active Directory Domain, this will enable bunch of users to gain access to login to Client_1 insstead of adding users one by one. First a special group called 'Domain Users' was entered then a checked-up was carried out to check the security of the group. This was then populated and underlined, as this then explained who is allowed to login to Client_1 computer BRYANOGBE\Domain Users meaning, all users that will be in that domain. To confirm this user group, the third figure above is from DC_1 comouter which clearly shows the domain user group that was added in Clien_t remote desktop.
+Note: prior to now only domain\admin i.e BRYANOGBE\abraham_ is alowed to login to Client_1 as shown above. Also, the second figure shows how several users are added to a domain user group with the aim of them been able to login to Client_1 computer. By entering the 'Domain Users Group' which is a special security group in Active Directory Domain, this will enable bunch of users to gain access to login to Client_1 insstead of adding users one by one. First a special group called 'Domain Users' was entered then a checked-up was carried out to check the security of the group. This was then populated and underlined, as this then explained who is allowed to login to Client_1 computer BRYANOGBE\Domain Users meaning, all users that will be in that domain. To confirm this user group, the preceeding figure from DC_1 computer shows the domain user group that was added in Client_1 remote desktop.
 </p>
 <br />
 
