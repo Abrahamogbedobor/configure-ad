@@ -289,6 +289,15 @@ As soon as the script is run, bunch of users account were created as shown above
 <img src="https://i.imgur.com/ID4JDy0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-One of the newly created user account bac.wusi as shown above was used to login to Client_1 computer. Notably, bac.wusi has never logged into Client_1 computer before however, he was able to do that without habing any issue. The reason was simply because, Client_1 was joined into Domain Controller also, bac.wusi was also joined into the domain. Therefore, when a request was sent to the domain there will be look-up to check if such user is in the domain.
+One of the newly created user account bac.wusi as shown above was used to login to Client_1 computer. Notably, bac.wusi has never logged into Client_1 computer before however, he was able to do that without having any issue. The reason was simply because, Client_1 was joined into Domain Controller also, bac.wusi was also joined into the domain. Therefore, when a request was sent to the domain there was a look-up to check if such user is in the domain.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fIIIYa8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sm1taGI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finally, users account could be unlocked, rest and diaable form DC_1 meaning, in an instance where a user forget his/her password, domain admin can be able to reset it back with a new password. Also, when users account is locked as a result of wrong input such account canbe unblock. Furthermore, at DC_1 computer user account can be diabled enable back.
 </p>
 <br />
